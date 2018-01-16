@@ -36,6 +36,8 @@ class Bakery
   end
 
 
+  private 
+  
   def output
     @order_output
   end
