@@ -1,6 +1,6 @@
 class Bakery
 
-  attr_accessor  :menu, :lines, :type, :keys, :order_output
+  attr_reader  :menu, :lines, :type, :keys, :order_output
 
 
   def initialize
@@ -37,7 +37,7 @@ class Bakery
 
 
   private 
-  
+
   def output
     @order_output
   end
